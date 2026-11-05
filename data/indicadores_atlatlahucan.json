@@ -1,0 +1,89 @@
+{
+  "municipio": "Atlatlahucan",
+  "estado": "Morelos",
+  "periodo": "Octubre 2025 - Septiembre 2026 (Corte 12 meses móvil)",
+  "fuentes": [
+    "Secretariado Ejecutivo del Sistema Nacional de Seguridad Pública (SESNSP)",
+    "Consejo Nacional de Población (CONAPO)",
+    "Encuesta Nacional de Victimización y Percepción sobre Seguridad Pública (ENVIPE - INEGI)",
+    "Reportes de Seguridad Pública del Fraccionamiento Lomas de Cocoyoc (SPU)"
+  ],
+  "demografia": {
+    "poblacion_estimada": 28620,
+    "tipo_zona": "Residencial de descanso y turística / Periferia semiurbana"
+  },
+  "delitos_frecuentes": [
+    {
+      "delito": "Robo a Casa Habitación (con y sin violencia)",
+      "carpetas_anuales": 19,
+      "tasa_por_100k": 66.4,
+      "referencia_estatal_morelos": 55.4,
+      "referencia_nacional_mexico": 23.8,
+      "diferencial_vs_estado": "+19.8%",
+      "diferencial_vs_nacion": "+178.9%",
+      "tendencia_interanual": "-42.4%",
+      "nivel_amenaza": "Crítico",
+      "impacto_residencial": "Muy Alto",
+      "descripcion": "Principal vector de afectación patrimonial en residencias de descanso, aprovechando períodos de baja ocupación y ausencias entre semana."
+    },
+    {
+      "delito": "Robo de Metales, Cobre e Instalaciones",
+      "carpetas_anuales": 12,
+      "tasa_por_100k": 41.9,
+      "nivel_amenaza": "Alto",
+      "impacto_residencial": "Medio-Alto",
+      "descripcion": "Sustracción de tuberías de gas, cobre hidráulico, medidores y cableado en viviendas deshabitadas o con perímetros vulnerables (caso documentado en Villas de Yautepec, agosto 2026)."
+    },
+    {
+      "delito": "Ocupación Ilegal / Intrusión / Despojo",
+      "carpetas_anuales": 6,
+      "tasa_por_100k": 20.9,
+      "nivel_amenaza": "Medio-Alto",
+      "impacto_residencial": "Crítico",
+      "descripcion": "Intentos de ingreso irregular y posesión por bandas u ocupantes con amenazas a propietarios (caso documentado en calle Pirul, febrero 2026)."
+    },
+    {
+      "delito": "Homicidio Doloso",
+      "carpetas_anuales": 9,
+      "tasa_por_100k": 31.5,
+      "nivel_amenaza": "Alto (Contextual)",
+      "impacto_residencial": "Medio (Riesgo colateral en traslados)",
+      "descripcion": "Indicador de violencia en el corredor Cuautla-Oaxtepec-Atlatlahucan; ajustado a disputas territoriales del crimen organizado en la zona oriente."
+    },
+    {
+      "delito": "Robo de Vehículo con Violencia",
+      "carpetas_anuales": 15,
+      "tasa_por_100k": 52.4,
+      "nivel_amenaza": "Medio-Alto",
+      "impacto_residencial": "Alto en accesos viales",
+      "descripcion": "Interceptación sobre autopista La Pera-Cuautla y carretera a Oaxtepec durante traslados hacia el fraccionamiento."
+    }
+  ],
+  "cifra_negra_envipe": {
+    "porcentaje_morelos": 92.4,
+    "observacion": "Más de 9 de cada 10 delitos no se denuncian formalmente en Morelos; en fraccionamientos cerrados la cifra negra de conatos y robos menores resueltos internamente por SPU es aún mayor."
+  },
+  "incidentes_especificos_lomas_cocoyoc_2026": [
+    {
+      "fecha": "2026-02-20",
+      "calle": "Calle Pirul",
+      "tipo": "Ocupación no autorizada / Invasión de inmueble y amenazas",
+      "resultado": "Detención de dos personas por intervención coordinada entre propietarios y vigilancia",
+      "fuente": "Diario de Morelos / Reporte Policial"
+    },
+    {
+      "fecha": "2026-08-12",
+      "calle": "Calle Villas de Yautepec",
+      "tipo": "Robo de tubería de cobre y accesorios en vivienda deshabitada",
+      "resultado": "Captura de sujeto en flagrancia por guardias de seguridad del fraccionamiento",
+      "fuente": "Diario de Morelos / Seguridad SPU"
+    },
+    {
+      "fecha": "2026-09-18",
+      "calle": "Circuito de los Volcanes 19 (Inmueble evaluado)",
+      "tipo": "Intrusión perimetral no autorizada",
+      "resultado": "Evento detonante del análisis de riesgos; necesidad de detección temprana exterior y respuesta SOC 24/7",
+      "fuente": "Reporte de la Habitante / Proyecto Técnico de Seguridad"
+    }
+  ]
+}

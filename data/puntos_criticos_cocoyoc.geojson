@@ -1,0 +1,185 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "titulo": "Dictamen de Seguridad Patrimonial, Diagnóstico CPTED y Propuesta de Monitoreo CCTV 24/7",
+    "inmueble": "Residencia Particular Circuito de los Volcanes 19",
+    "fraccionamiento": "Fraccionamiento Lomas de Cocoyoc, C.P. 62847",
+    "municipio": "Atlatlahucan, Morelos",
+    "coordenadas_wgs84": [-98.920426, 18.921390],
+    "antecedente_critico": "Intrusión reportada el 18 de septiembre de 2026",
+    "infraestructura_existente": "11 cámaras Dahua (4 traseras, 3 frontales, 4 interiores); DVR Hikvision iDS-7216HQHI-M1/XT; HDD 1-2 TB",
+    "infraestructura_propuesta": "2-4 cámaras inteligentes Verkada exteriores (analítica de personas); iluminación disuasiva PIR; estrobo/sirena; botón de pánico; monitoreo remoto 24/7 (SOC Pisa/CEMAN); preservación estricta de privacidad interior"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-98.920530, 18.921700],
+            [-98.920330, 18.921700],
+            [-98.920335, 18.921370],
+            [-98.920350, 18.921130],
+            [-98.920550, 18.921220],
+            [-98.920540, 18.921400],
+            [-98.920530, 18.921700]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "POL-01",
+        "tipo": "Polígono Territorial Predial",
+        "nombre": "Polígono Residencial Circuito de los Volcanes 19",
+        "descripcion": "Lote residencial unifamiliar con casa habitación de dos niveles, jardín posterior, pasillos laterales de servicio y frente sobre Circuito de los Volcanes."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-98.920426, 18.921430]
+      },
+      "properties": {
+        "id": "P1",
+        "svg_coord": [505, 360],
+        "nombre": "P1. Balcón Superior y Pérgola: Vulnerabilidad de Escalada Estructural",
+        "categoria": "CPTED - Escalabilidad Estructural / Invasión a Segundo Nivel",
+        "nivel_riesgo": "Crítico",
+        "score_riesgo": 9.4,
+        "evidencia_fotografica": ["residencia_volcanes19_06.jpg", "residencia_volcanes19_15.jpg"],
+        "diagnostico_cpted": "La estructura metálica de la pérgola de la terraza baja y el descanso de la escalera exterior proporcionan apoyos directos para trepar al balcón del segundo piso sin necesidad de escalera portátil. Desde el balcón se accede directamente a los ventanales de las recámaras.",
+        "solucion_adaptacion": "Instalación de sensor exterior de cortina perimetral; película de seguridad anti-impacto (12 micras) en puertas corredizas de cristal; herrajes de bloqueo interior; y cámara exterior Verkada con analítica de cruce de línea en la losa superior."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-98.920510, 18.921450]
+      },
+      "properties": {
+        "id": "P2",
+        "svg_coord": [470, 345],
+        "nombre": "P2. Pasillo Lateral Poniente: Vector Sigiloso & Tendedero de Cables",
+        "categoria": "CPTED - Punto Ciego / Sabotaje de Suministros",
+        "nivel_riesgo": "Alto",
+        "score_riesgo": 8.8,
+        "evidencia_fotografica": ["residencia_volcanes19_03.jpg"],
+        "diagnostico_cpted": "Pasillo de servicio angosto, sombreado y oculto de la vista de la calle. Alberga calentador de gas, tuberías expuestas y un tendedero desordenado de cables eléctricos y coaxiales de CCTV sin canalizar, susceptible a corte manual o sabotaje.",
+        "solucion_adaptacion": "Canalización integral de cableado bajo tubería conduit metálica galvanizada de pared gruesa de 3/4\"; reflectores LED disuasivos con sensor de movimiento PIR de encendido instantáneo; y cámara gran angular de exterior apuntando al pasillo."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-98.920440, 18.921600]
+      },
+      "properties": {
+        "id": "P3",
+        "svg_coord": [495, 275],
+        "nombre": "P3. Jardín Posterior & Setos Vivos de Ficus: Ocultamiento CPTED",
+        "categoria": "CPTED - Ausencia de Vigilancia Natural / Ocultamiento",
+        "nivel_riesgo": "Alto",
+        "score_riesgo": 8.5,
+        "evidencia_fotografica": ["residencia_volcanes19_11.jpg", "residencia_volcanes19_35.jpg"],
+        "diagnostico_cpted": "El jardín posterior está confinado por setos vivos de ficus y árboles de más de 3 metros que superan la barda perimetral. Impiden totalmente la vigilancia natural recíproca entre vecinos y permiten que un intruso permanezca agazapado sin ser visto.",
+        "solucion_adaptacion": "Poda técnica bajo el principio CPTED 'Regla de los 2 metros' (despejar copas por encima de 2.2 m y recortar arbustos a menos de 1 m para recuperar la línea de visión); reflectores zonificados por horario; y cámara con detección inteligente de silueta humana."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-98.920430, 18.921280]
+      },
+      "properties": {
+        "id": "P4",
+        "svg_coord": [500, 410],
+        "nombre": "P4. Acceso Principal y Pórtico Frontal sobre Circuito de los Volcanes",
+        "categoria": "Seguridad Física / Control de Accesos",
+        "nivel_riesgo": "Medio-Alto",
+        "score_riesgo": 7.9,
+        "evidencia_fotografica": ["residencia_volcanes19_25.jpg"],
+        "diagnostico_cpted": "Pórtico frontal techado con puerta de herrería y paneles de vidrio. La vegetación adyacente genera conos de sombra hacia la calle durante la noche.",
+        "solucion_adaptacion": "Reforzamiento de cerraduras con cilindros anti-bumping; iluminación de cortesía LED permanente; contacto magnético supervisado en puerta; y videovigilancia con enfoque a la banqueta y aproximación de vehículos."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-98.920360, 18.921400]
+      },
+      "properties": {
+        "id": "P5",
+        "svg_coord": [530, 375],
+        "nombre": "P5. Falla de Instalación CCTV: Cámara Obstruida por Follaje",
+        "categoria": "Ingeniería CCTV - Punto Ciego & Saturación de Falsas Alarmas",
+        "nivel_riesgo": "Alto",
+        "score_riesgo": 8.6,
+        "evidencia_fotografica": ["residencia_volcanes19_30.jpg"],
+        "diagnostico_cpted": "Cámara Dahua exterior instalada bajo losa cuyo cono visual está cubierto en más del 40% por hojas de ficus. De noche, el emisor infrarrojo rebota en las hojas cercanas, cegando el sensor (IR glare) y generando alertas constantes por movimiento del viento.",
+        "solucion_adaptacion": "Despeje inmediato de vegetación frente al domo; reorientación o reubicación del soporte; y configuración de máscaras de exclusión analítica de hojas."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-98.920340, 18.921480]
+      },
+      "properties": {
+        "id": "P6",
+        "svg_coord": [545, 340],
+        "nombre": "P6. Colindancia Oriente: Barda Baja y Malla Ciclónica (Riesgo de Brinco)",
+        "categoria": "Seguridad Perimetral / Efecto Trampolín",
+        "nivel_riesgo": "Alto",
+        "score_riesgo": 8.2,
+        "evidencia_fotografica": ["residencia_volcanes19_01.jpg"],
+        "diagnostico_cpted": "Barda medianera baja con malla ciclónica y cinta de privacidad. Si la residencia vecina está desocupada entre semana, representa una plataforma de invasión perimetral sin resistencia mecánica.",
+        "solucion_adaptacion": "Elevación de remate con concertina o espina de acero inoxidable; sensor de vibración/corte en malla perimetral; y coordinación de rondines con el Grupo de Vigilancia SPU."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-98.920426, 18.921250],
+          [-98.919000, 18.920800],
+          [-98.917500, 18.920200]
+        ]
+      },
+      "properties": {
+        "id": "P7",
+        "svg_coord": [650, 470],
+        "nombre": "P7. Vector de Evasión Vehicular hacia Caseta SPU y Salida",
+        "categoria": "Criminología Vial - Corredor de Fuga",
+        "nivel_riesgo": "Medio-Alto",
+        "score_riesgo": 7.5,
+        "diagnostico_cpted": "Circuito de los Volcanes conecta hacia Av. de los Volcanes y la caseta de acceso/salida de Lomas de Cocoyoc, con enlace inmediato a Carretera Federal Oaxtepec-Atlatlahucan y Autopista México-Cuautla (La Pera).",
+        "solucion_adaptacion": "Protocolo de notificación en menos de 60 segundos al Grupo de Vigilancia SPU para cierre preventivo de plumas en caseta ante alarma confirmada de intrusión."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-98.920440, 18.921380]
+      },
+      "properties": {
+        "id": "P8",
+        "svg_coord": [495, 385],
+        "nombre": "P8. Sitio Técnico Interior: DVR Hikvision, Almacenamiento y UPS",
+        "categoria": "Infraestructura Central / Continuidad Operativa",
+        "nivel_riesgo": "Medio-Alto",
+        "score_riesgo": 8.0,
+        "evidencia_fotografica": ["casa_contigua_01.jpg"],
+        "diagnostico_cpted": "El DVR Hikvision iDS-7216HQHI-M1/XT concentra las 11 cámaras Dahua existentes con disco de 1-2 TB (riesgo de sobrescritura en menos de 9-10 días). Carece de respaldo de energía prolongado ante apagones.",
+        "solucion_adaptacion": "Ampliación de almacenamiento a disco duro de 8-12 TB de grado vigilancia (WD Purple / Seagate SkyHawk) para garantizar 30 días de video continuo; incorporación de UPS de 1000-1500 VA con respaldo de 45-60 minutos; y aislamiento de red para cámaras privadas interiores."
+      }
+    }
+  ]
+}
